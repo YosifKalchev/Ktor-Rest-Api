@@ -1,6 +1,6 @@
 # Custom Ktor Rest API
 
-<img src="https://user-images.githubusercontent.com/65896669/185249087-72d9fcfb-be75-4f2d-96af-360d901e9bea.gif" width="200" align="right" hspace="20">
+<img src="https://user-images.githubusercontent.com/65896669/185249087-72d9fcfb-be75-4f2d-96af-360d901e9bea.gif" width="200" align="right" hspace="10">
 
 [![Kotlin Version](https://img.shields.io/badge/Kotlin-1.7.10-black.svg)](https://kotlinlang.org)
 [![AGP](https://img.shields.io/badge/AGP-7.2.1-black?style=flat)](https://developer.android.com/studio/releases/gradle-plugin)
