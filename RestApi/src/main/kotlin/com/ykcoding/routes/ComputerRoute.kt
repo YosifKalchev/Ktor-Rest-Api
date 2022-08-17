@@ -6,7 +6,7 @@ import io.ktor.server.application.*
 import io.ktor.server.response.*
 import io.ktor.server.routing.*
 
-private const val BASE_URL = "http://localhost:8080"
+private const val BASE_URL = "http://10.0.2.2:8080" //IP for Android Emulator
 private val computers = listOf(
     Computer("MacBook Pro 16 Touch Bar", "Intel Core i9-9880H", "$BASE_URL/computers/computer1.jpg"),
     Computer("Apple MacBook Air 13.6\" Space Grey (2022)", "Apple M2", "$BASE_URL/computers/computer2.jpg"),
@@ -15,7 +15,7 @@ private val computers = listOf(
 )
 
 fun Route.randomComputer() {
-    get("/randompc") {
+    get("/randomcomputer") {
         call.respond(
             HttpStatusCode.OK,
             computers.random()
