@@ -77,8 +77,8 @@ There are a few ways to open this project.
 ### Command-line + IntelliJ Idea & Android Studio
 
 1. Run `https://github.com/YosifKalchev/Ktor-Rest-Api.git` command to clone project
-2. Open `IntelliJ Idea` and select `File | Open...` from the menu. Select `RestApi` folder in cloned directory and press `Open` button
-3. Open `Android Studio` and select `File | Open...` from the menu. Select `ComputersApp` folder in cloned directory and press `Open` button
+2. Open `IntelliJ Idea` and select `File | Open...` from the menu. Select `RestApi` folder in cloned directory and press `Open` button.
+3. Open `Android Studio` and select `File | Open...` from the menu. Select `ComputersApp` folder in cloned directory and press `Open` button.
 
 ```
 NOTE: You need to run the RestApi first
